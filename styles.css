@@ -1,3 +1,7 @@
+/* ==========================================================================
+   Surya Prakash - Modern Data & AI Portfolio Stylesheet
+   ========================================================================== */
+
 :root {
   --bg-primary: #0a0c10;
   --bg-secondary: #12161f;
@@ -31,6 +35,7 @@
   --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+/* Base & Reset */
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -52,6 +57,7 @@ body {
   overflow-x: hidden;
 }
 
+/* Ambient Blobs */
 .blob {
   position: fixed;
   border-radius: 50%;
@@ -94,6 +100,7 @@ body {
   100% { transform: translate(-40px, 80px) scale(0.95); }
 }
 
+/* Typography & Utilities */
 a {
   color: inherit;
   text-decoration: none;
@@ -111,6 +118,7 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+/* Navigation */
 .navbar {
   position: sticky;
   top: 0;
@@ -190,6 +198,7 @@ a {
   transition: var(--transition);
 }
 
+/* Hero Section */
 .hero-section {
   padding: 6.5rem 2rem 5rem;
   max-width: 1100px;
@@ -308,10 +317,10 @@ a {
 
 .stat-num {
   display: block;
-  font-size: 2rem;
+  font-size: clamp(1.35rem, 2.5vw, 1.85rem);
   font-weight: 800;
   color: var(--text-primary);
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.35rem;
   background: linear-gradient(135deg, #ffffff, #cbd5e1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -323,6 +332,7 @@ a {
   font-weight: 500;
 }
 
+/* Sections */
 .section {
   padding: 6rem 2rem;
 }
@@ -367,6 +377,7 @@ a {
   color: var(--text-secondary);
 }
 
+/* Skills Matrix */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -423,6 +434,7 @@ a {
   color: #cbd5e1;
 }
 
+/* Projects Section */
 .project-filters {
   display: flex;
   justify-content: center;
@@ -574,6 +586,7 @@ a {
   transform: translateX(4px);
 }
 
+/* Timeline */
 .timeline {
   max-width: 800px;
   margin: 0 auto;
@@ -635,6 +648,7 @@ a {
   line-height: 1.6;
 }
 
+/* Contact Box */
 .contact-box {
   background: linear-gradient(135deg, rgba(22, 27, 38, 0.9), rgba(15, 23, 42, 0.9));
   border: 1px solid rgba(99, 102, 241, 0.3);
@@ -703,6 +717,7 @@ a {
   color: var(--text-primary);
 }
 
+/* Footer */
 .footer {
   border-top: 1px solid var(--border-color);
   padding: 2.5rem 2rem;
@@ -724,6 +739,7 @@ a {
   color: var(--primary);
 }
 
+/* Responsive */
 @media (max-width: 768px) {
   .nav-menu {
     display: none;
