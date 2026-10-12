@@ -5,6 +5,7 @@ Professional portfolio website showcasing production projects across Data Engine
 ## 🚀 Featured Projects
 - **NYC Taxi Lakehouse Platform & AI/BI Analytics** (Databricks, PySpark, Unity Catalog, Delta Lake, Lakeview Dashboards)
 - **Urban Mobility End-to-End Data Lakehouse** (PySpark, dbt Cloud, Databricks, Delta Lake, SCD Type 2)
+- **Sound Enhancer Studio** (Acoustic Model Fine-Tuning, Audio DSP, FFT Spectrum, React & Android)
 - **Enterprise Sales Analytics Pipeline** (MySQL, Power BI, DAX Financial Modeling)
 - **Multi-Model Behavioral ML Classifier** (Python, scikit-learn, XGBoost, K-Means)
 - **Guru — AI Interactive Educational Platform** (React 19, TypeScript, Google Gemini API)
