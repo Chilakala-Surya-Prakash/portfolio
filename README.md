@@ -8,7 +8,7 @@ Professional portfolio website showcasing production projects across Data Engine
 - **Sound Enhancer Studio** (Acoustic Model Fine-Tuning, Audio DSP, FFT Spectrum, React & Android)
 - **Enterprise Sales Analytics Pipeline** (MySQL, Power BI, DAX Financial Modeling)
 - **Multi-Model Behavioral ML Classifier** (Python, scikit-learn, XGBoost, K-Means)
-- **Guru — AI Interactive Educational Platform** (React 19, TypeScript, Google Gemini API)
+- **Guru — AI Interactive Educational Platform [Currently Working / In Progress]** (React 19, TypeScript, Google Gemini API)
 - **E-Commerce Web Intelligence Pipeline** (Python, BeautifulSoup, Automated Extraction)
 
 ## 🌐 Live Website
