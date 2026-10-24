@@ -30,8 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const filter = btn.getAttribute('data-filter');
 
       projectCards.forEach(card => {
-        const category = card.getAttribute('data-category');
-        if (filter === 'all' || category === filter) {
+        const category = card.getAttribute('data-category') || '';
+        const categories = category.split(' ');
+        if (filter === 'all' || categories.includes(filter)) {
           card.style.display = 'flex';
           setTimeout(() => {
             card.style.opacity = '1';
